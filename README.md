@@ -6,7 +6,7 @@ This project is a dataset explorer for the City of Syracuse Open Data portal.It 
 
 **Live site:**
 
-[https://open-data-inventory-search.netlify.app/](https://open-data-inventory-search.netlify.app/)
+[https://syr-opendata-library.netlify.app/)
 
 ---
 
