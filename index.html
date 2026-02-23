@@ -357,6 +357,7 @@
       <h1>Syracuse Open Data Datasets</h1>
 
       <div class="controls">
+        <label for="searchBox" class="sr-only">Search datasets by name</label>
         <input
           type="text"
           id="searchBox"
@@ -366,6 +367,9 @@
 
         <div class="filter-wrapper">
           <!-- Category filter based on item.groupCategories -->
+          <label for="categoryFilter" class="sr-only"
+            >Filter datasets by category</label
+          >
           <select id="categoryFilter" class="filter-select">
             <option value="">All Categories</option>
           </select>
@@ -381,6 +385,9 @@
 
         <div class="filter-wrapper">
           <!-- Year filter based on Date Updated / modified -->
+          <label for="yearFilter" class="sr-only"
+            >Filter datasets by year published</label
+          >
           <select id="yearFilter" class="filter-select">
             <option value="">Year Published</option>
           </select>
